@@ -29,7 +29,7 @@ class Chips extends Component {
   }
   
   onBlur = e => {
-    this.refs.wrapper.focus();
+    console.log('JSM ----------- onBlur()');
   }
 
   onFocus = e => {
